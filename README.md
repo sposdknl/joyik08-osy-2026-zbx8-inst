@@ -58,9 +58,15 @@ Poté se přihlas na **http://127.0.0.1** jako `Admin`.
 * **Specifika Zabbix 8.0 JSON-RPC API**: V nové verzi Zabbix 8.0 vyžaduje metoda `apiinfo.version` prázdné pole `[]` místo objektu `{}` a při změně hesla uživatele `Admin` přes `user.update` je povinné uvést i stávající heslo (`current_passwd`), jinak API vrátí chybu `Invalid params`.
 * **Bezpečné opakování provisioningu (`vagrant provision`)**: Při ladění skriptů na Windows bylo nutné v `Vagrantfile` ošetřit konce řádků (`CRLF -> LF`) a v instalačních skriptech zajistit kontrolu existujících tabulek v DB, aby opakovaný běh `vagrant provision` neselhal.
 
+---
+
+## Na obrázku je vidět kolik dní zbývá do vypršení certifikátu (159).
+
 ![Dukaz](Images/dukaz.png)
 
 ---
+
+## na obrázku je host spos-zabbix8, který monitoruje jak běží systém.
 
 ![Dukaz2](Images/dukaz2.png)
 
