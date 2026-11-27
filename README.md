@@ -66,9 +66,15 @@ Poté se přihlas na **http://127.0.0.1** jako `Admin`.
 
 ---
 
-## na obrázku je host spos-zabbix8, který monitoruje jak běží systém.
+## Na obrázku je host spos-zabbix8, který monitoruje jak běží systém.
 
 ![Dukaz2](Images/dukaz2.png)
+
+---
+
+## Všichni dostupní hosté na a u všech je vidět že jsou available
+
+![Dukaz3](Images/dukaz3.png)
 
 ---
 
