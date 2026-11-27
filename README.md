@@ -62,6 +62,10 @@ Poté se přihlas na **http://127.0.0.1** jako `Admin`.
 
 ---
 
+![Dukaz2](Images/dukaz2.png)
+
+---
+
 ## Rychlé ověření funkčnosti
 
 Po dokončení `vagrant up` lze stav všech komponent ověřit uvnitř VM (`vagrant ssh`):
